@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Tiny Library</title>
+</head>
+<body>
+    <header>Tiny Library</header>
+    <main>
+        <section>
+            <div class="library"></div>
+            <button id="openForm">New Book</button>
+        </section>
+        <article class="hidden">
+            <form action="">
+                <div><label for="title">Title: </label><input type="text" id="title" /></div>
+                <div><label for="author">Author: </label><input type="text" id="author"/></div>
+                <div><label for="pages">How Many Of Pages? </label><input type="number" id="pages"/></div>
+                <div><label for="read">Did You Read It All? </label><input type="checkbox" id="read"/></div>
+                <input type="submit" id="add" value="Add New Book">
+            </form>
+            <span id="closeForm">Close</span>
+        </article>
+    </main>
+</body>
+</html>
