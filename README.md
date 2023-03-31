@@ -1,7 +1,7 @@
 # Library
 ## Table Of Contents
  - Live Demo
-[-] Screenshots
-[-] Tech Stack
-[-] Manual
-[-] Explanation
+ - Screenshots
+ - Tech Stack
+ - Manual
+ - Explanation
